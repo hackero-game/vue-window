@@ -8,9 +8,11 @@
           </template>
           <template v-else>{{title}}</template>
         </div>
-        <template v-if="closeButton">
+        <slot name="buttons">
+          <slot name="close" v-if="closeButton">
           <my-button @click="closeButtonClick">&times;</my-button>
-        </template>
+        </slot>
+        </slot>
       </div>
       <div class="content" :style="styleContent" ref="content">
         <slot />

@@ -2,6 +2,9 @@
   <hsc-window-style-metal>
 
     <hsc-window title="Window 1" :closeButton="true" :isOpen.sync="isOpen">
+      <template #buttons>
+        test
+      </template>
       Parameters:
       <fieldset>
         <legend>&alpha;</legend>
