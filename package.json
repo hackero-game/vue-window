@@ -1,5 +1,5 @@
 {
-  "name": "@hackero-game/vue-window",
+  "name": "@hackerogame/vue-window",
   "version": "2.4.1",
   "description": "Vue component for window",
   "main": "./lib/index.js",
