@@ -6,7 +6,8 @@
   "types": "./lib/types/index.d.ts",
   "files": [
     "lib/",
-    "standalone/dist"
+    "standalone/dist",
+    "src/"
   ],
   "scripts": {
     "prepare": "echo RUNNING PRPEARE; webpack --mode production ; npm run standalone",
