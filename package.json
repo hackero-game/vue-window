@@ -10,6 +10,7 @@
   ],
   "scripts": {
     "prepare": "echo RUNNING PRPEARE; webpack --mode production ; npm run standalone",
+    "postinstall": "echo RUNNING POSTINSTALL; webpack --mode production ; npm run standalone",
     "watch": "webpack --mode development --watch",
     "example": "webpack --context example --config ./example/webpack.config.js --mode development",
     "example-server": "webpack-dev-server --hot --progress --context example --config ./example/webpack.config.js --mode development",
