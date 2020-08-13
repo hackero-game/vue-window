@@ -1,15 +1,15 @@
 {
-  "name": "@hscmap/vue-window",
+  "name": "@hackerogame/vue-window",
   "version": "2.4.1",
   "description": "Vue component for window",
   "main": "./lib/index.js",
   "types": "./lib/types/index.d.ts",
   "files": [
     "lib/",
-    "standalone/dist"
+    "standalone/dist",
+    "src/"
   ],
   "scripts": {
-    "prepare_old": "webpack --mode production ; npm run standalone",
     "watch": "webpack --mode development --watch",
     "example": "webpack --context example --config ./example/webpack.config.js --mode development",
     "example-server": "webpack-dev-server --hot --progress --context example --config ./example/webpack.config.js --mode development",
@@ -37,7 +37,7 @@
     "vue-loader": "^15.6.2",
     "vue-property-decorator": "^7.3.0",
     "vue-template-compiler": "^2.6.3",
-    "webpack": "^4.29.2",
+    "webpack": "^4.44.1",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.1.14"
   },
